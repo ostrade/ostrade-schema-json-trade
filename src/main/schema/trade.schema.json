@@ -1,0 +1,25 @@
+{
+  "$id": "https://ostrade.org/schema/json/trade/trade/v1.0",
+  "title": "Trade",
+  "type": "object",
+  "properties": {
+    "tradeId": {
+      "type": "string"
+    },
+    "contractId": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "price": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "tradeId",
+    "contractId",
+    "quantity",
+    "price"
+  ]
+}
